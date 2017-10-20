@@ -1,0 +1,281 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  overflow: hidden; }
+
+.header {
+  height: 0.45rem;
+  position: relative; }
+  .header h1 {
+    text-align: center;
+    font-size: 0.18rem;
+    line-height: 0.45rem; }
+    .header h1 a {
+      display: inline-block;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      position: relative;
+      color: #CECECE; }
+      .header h1 a span {
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+        width: 80%;
+        height: 0.02rem;
+        background-color: transparent; }
+  .header i.fa {
+    position: absolute;
+    right: 0.1rem;
+    top: 0.1rem;
+    font-size: 0.2rem; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  background-color: #EDEDED; }
+  .content .banner {
+    height: 1.6rem; }
+    .content .banner img {
+      width: 100%;
+      height: 1.6rem; }
+  .content .carMarket {
+    display: -webkit-flex;
+    background-color: #fff; }
+    .content .carMarket dl {
+      -webkit-flex: 1;
+      text-align: center;
+      padding-top: 0.1rem;
+      padding-bottom: 0.1rem; }
+      .content .carMarket dl dt span {
+        margin: 0 auto;
+        display: block;
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 0.15rem;
+        background-color: #FF6565;
+        text-align: center;
+        line-height: 0.4rem; }
+        .content .carMarket dl dt span i.fa {
+          color: #fff;
+          font-size: 0.2rem;
+          vertical-align: sub; }
+      .content .carMarket dl dd {
+        padding-top: 0.05rem; }
+      .content .carMarket dl:nth-of-type(2) dt span {
+        background-color: #FF9D3D; }
+      .content .carMarket dl:nth-of-type(4) dt span {
+        background-color: #4183FF; }
+  .content .protect {
+    height: 0.65rem;
+    background-color: #fff; }
+    .content .protect img {
+      width: 100%;
+      height: 100%; }
+  .content .carUser {
+    background-color: #fff;
+    margin-bottom: 0.1rem; }
+    .content .carUser h2 {
+      font-size: 0.16rem;
+      line-height: 0.4rem;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      border-bottom: 1px solid #F2F2F2; }
+    .content .carUser .oil li {
+      display: -webkit-flex;
+      border-bottom: 1px solid #F2F2F2; }
+      .content .carUser .oil li dl {
+        -webkit-flex: 1;
+        text-align: center;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem; }
+        .content .carUser .oil li dl dt {
+          padding-top: 0.05rem;
+          padding-bottom: 0.05rem; }
+          .content .carUser .oil li dl dt i.fa {
+            font-size: 0.24rem;
+            color: #F75757; }
+        .content .carUser .oil li dl dd {
+          padding-top: 0.05rem; }
+      .content .carUser .oil li:nth-of-type(1) dl:nth-of-type(2) i.fa {
+        color: #D3EDE3; }
+      .content .carUser .oil li:nth-of-type(1) dl:nth-of-type(3) i.fa {
+        color: #7760EF; }
+      .content .carUser .oil li:nth-of-type(1) dl:nth-of-type(4) i.fa {
+        color: #53C09B; }
+      .content .carUser .oil li:nth-of-type(2) dl:nth-of-type(1) i.fa {
+        color: #FFDDCB; }
+      .content .carUser .oil li:nth-of-type(2) dl:nth-of-type(2) i.fa {
+        color: #C6DAFF; }
+      .content .carUser .oil li:nth-of-type(2) dl:nth-of-type(3) i.fa {
+        color: #FF5408; }
+      .content .carUser .oil li:nth-of-type(2) dl:nth-of-type(4) i.fa {
+        color: #E94645; }
+      .content .carUser .oil li:nth-of-type(3) dl:nth-of-type(1) i.fa {
+        color: #C6DAFF; }
+      .content .carUser .oil li:nth-of-type(3) dl:nth-of-type(2) i.fa {
+        color: #A1DDC7; }
+      .content .carUser .oil li:nth-of-type(3) dl:nth-of-type(3) i.fa {
+        color: #D9E5FF; }
+      .content .carUser .oil li:nth-of-type(3) dl:nth-of-type(4) i.fa {
+        color: #D9D9D9; }
+  .content .someTime {
+    background-color: #fff;
+    margin-bottom: 0.1rem;
+    overflow: hidden; }
+    .content .someTime h2 {
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      font-size: 0.16rem;
+      line-height: 0.4rem;
+      display: -webkit-flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #F2F2F2; }
+    .content .someTime .test {
+      width: 100%;
+      height: 1.7rem;
+      padding-bottom: 0.1rem;
+      position: relative; }
+      .content .someTime .test #myScroll {
+        width: 200%;
+        height: 1.6rem;
+        position: absolute;
+        display: -webkit-flex; }
+        .content .someTime .test #myScroll dl {
+          -webkit-flex: 1;
+          margin-right: 0.1rem;
+          border: 1px solid #F2F2F2; }
+          .content .someTime .test #myScroll dl dt {
+            width: 100%;
+            height: 1rem;
+            text-align: center; }
+            .content .someTime .test #myScroll dl dt img {
+              width: 1.5rem;
+              height: 100%; }
+          .content .someTime .test #myScroll dl dd {
+            padding-left: 0.1rem;
+            padding-right: 0.1rem; }
+            .content .someTime .test #myScroll dl dd p span {
+              color: #FB5401;
+              font-size: 0.12rem; }
+            .content .someTime .test #myScroll dl dd p em {
+              font-size: 0.12rem;
+              color: #ccc;
+              margin-left: 0.15rem;
+              font-style: normal;
+              text-decoration: line-through; }
+  .content .activity {
+    background-color: #fff;
+    margin-bottom: 0.1rem; }
+    .content .activity h2 {
+      font-size: 0.16rem;
+      line-height: 0.4rem;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      border-bottom: 1px solid #F2F2F2;
+      display: -webkit-flex;
+      justify-content: space-between; }
+      .content .activity h2 em {
+        font-size: 0.14rem;
+        font-style: normal;
+        color: #9D9D9D; }
+        .content .activity h2 em i.fa {
+          font-size: 0.2rem;
+          vertical-align: sub; }
+    .content .activity .testBody {
+      display: -webkit-flex; }
+      .content .activity .testBody dl {
+        -webkit-flex: 1;
+        border: 1px solid #F2F2F2; }
+        .content .activity .testBody dl dt {
+          width: 100%;
+          text-align: center; }
+          .content .activity .testBody dl dt img {
+            width: 1rem;
+            height: 0.8rem; }
+        .content .activity .testBody dl dd {
+          padding-left: 0.1rem;
+          padding-right: 0.1rem;
+          padding-top: 0.05rem; }
+          .content .activity .testBody dl dd p {
+            color: #FC7F41; }
+  .content .guess {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0.1rem; }
+    .content .guess h2 {
+      font-size: 0.16rem;
+      line-height: 0.4rem;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      border-bottom: 1px solid #F2F2F2;
+      display: -webkit-flex;
+      justify-content: space-between; }
+      .content .guess h2 em {
+        font-size: 0.14rem;
+        font-style: normal;
+        color: #9D9D9D; }
+        .content .guess h2 em i.fa {
+          font-size: 0.2rem;
+          vertical-align: sub; }
+    .content .guess .my-car {
+      display: -webkit-flex;
+      -webkit-flex-wrap: wrap; }
+      .content .guess .my-car dl {
+        width: 50%;
+        padding: 0.1rem; }
+        .content .guess .my-car dl dt {
+          width: 100%;
+          height: 1rem;
+          text-align: center; }
+          .content .guess .my-car dl dt img {
+            width: 1.2rem;
+            height: 100%; }
+        .content .guess .my-car dl dd h6 {
+          color: #9D9D9D;
+          font-size: 0.12rem; }
+        .content .guess .my-car dl dd p {
+          color: #FB5401; }
+          .content .guess .my-car dl dd p span {
+            color: #9D9D9D;
+            font-size: 0.1rem;
+            text-decoration: line-through;
+            margin-left: 0.15rem; }
+  .content .more {
+    height: 0.3rem;
+    background-color: #fff; }
+    .content .more h2 {
+      height: 0.3rem;
+      line-height: 0.3rem;
+      text-align: center;
+      font-size: 0.16rem; }
+
+.footer {
+  display: -webkit-flex;
+  height: 0.45rem;
+  background-color: #FBFBFB;
+  border-top: 1px solid #F2F2F2; }
+  .footer li {
+    -webkit-flex: 1;
+    text-align: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    padding-top: 0.05rem; }
+    .footer li i.fa {
+      font-size: 0.18rem; }
+    .footer li span {
+      font-size: 0.12rem;
+      padding-top: 0.03rem; }
+
+.change {
+  color: #474747 !important; }
+  .change span {
+    background-color: #474747 !important; }
+
+.on {
+  color: #4183FF !important; }
+
+/*# sourceMappingURL=style.css.map */

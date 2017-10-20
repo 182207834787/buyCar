@@ -1,0 +1,308 @@
+body
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  display: -webkit-flex
+  -webkit-flex-direction: column
+  overflow: hidden
+.header
+  height: .45rem
+  position: relative
+  h1
+    text-align: center
+    font-size: .18rem
+    line-height: .45rem
+    a
+      display: inline-block
+      padding-left: .1rem
+      padding-right: .1rem
+      position: relative
+      color: #CECECE
+      span
+        position: absolute
+        bottom: 0
+        left: 10%
+        width: 80%
+        height: .02rem
+        background-color: transparent
+  i.fa
+    position: absolute
+    right: .1rem
+    top: .1rem
+    font-size: .2rem
+
+.content
+  -webkit-flex: 1
+  overflow-y: scroll
+  background-color: #EDEDED
+  .banner
+    height: 1.6rem
+    img
+      width: 100%
+      height: 1.6rem
+  .carMarket
+    display: -webkit-flex
+    background-color: #fff
+    dl
+      -webkit-flex: 1
+      text-align: center
+      padding-top: .1rem
+      padding-bottom: .1rem
+      dt
+        span
+          margin: 0 auto
+          display: block
+          width: .4rem
+          height: .4rem
+          border-radius: .15rem
+          background-color: #FF6565
+          text-align: center
+          line-height: .4rem
+          i.fa
+            color: #fff
+            font-size: .2rem
+            vertical-align: sub
+      dd
+        padding-top: .05rem
+      &:nth-of-type(2)
+        dt
+          span
+            background-color: #FF9D3D
+      &:nth-of-type(4)
+        dt
+          span
+            background-color: #4183FF
+  .protect
+    height: .65rem
+    background-color: #fff
+    img
+      width: 100%
+      height: 100%
+  .carUser
+    background-color: #fff
+    margin-bottom: .1rem
+    h2
+      font-size: .16rem
+      line-height: .4rem
+      padding-left: .1rem
+      padding-right: .1rem
+      border-bottom: 1px solid #F2F2F2
+    .oil
+      li
+        display: -webkit-flex
+        border-bottom: 1px solid #F2F2F2
+        dl
+          -webkit-flex: 1
+          text-align: center
+          padding-top: .1rem
+          padding-bottom: .1rem
+          dt
+            padding-top: .05rem
+            padding-bottom: .05rem
+            i.fa
+              font-size: .24rem
+              color: #F75757
+          dd
+            padding-top: .05rem
+        &:nth-of-type(1)
+          dl
+            &:nth-of-type(2)
+              i.fa
+                color: #D3EDE3
+            &:nth-of-type(3)
+              i.fa
+                color: #7760EF
+            &:nth-of-type(4)
+              i.fa
+                color: #53C09B
+        &:nth-of-type(2)
+          dl
+            &:nth-of-type(1)
+              i.fa
+                color: #FFDDCB
+            &:nth-of-type(2)
+              i.fa
+                color: #C6DAFF
+            &:nth-of-type(3)
+              i.fa
+                color: #FF5408
+            &:nth-of-type(4)
+              i.fa
+                color: #E94645
+        &:nth-of-type(3)
+          dl
+            &:nth-of-type(1)
+              i.fa
+                color: #C6DAFF
+            &:nth-of-type(2)
+              i.fa
+                color: #A1DDC7
+            &:nth-of-type(3)
+              i.fa
+                color: #D9E5FF
+            &:nth-of-type(4)
+              i.fa
+                color: #D9D9D9
+  .someTime
+    background-color: #fff
+    margin-bottom: .1rem
+    overflow: hidden
+    h2
+      padding-left: .1rem
+      padding-right: .1rem
+      font-size: .16rem
+      line-height: .4rem
+      display: -webkit-flex
+      justify-content: space-between
+      border-bottom: 1px solid #F2F2F2
+    .test
+      width: 100%
+      height: 1.7rem
+      padding-bottom: .1rem
+      position: relative
+      #myScroll
+        width: 200%
+        height: 1.6rem
+        position: absolute
+        display: -webkit-flex
+        dl
+          -webkit-flex: 1
+          margin-right: .1rem
+          border: 1px solid #F2F2F2
+          dt
+            width: 100%
+            height: 1rem
+            text-align: center
+            img
+              width: 1.5rem
+              height: 100%
+          dd
+            padding-left: .1rem
+            padding-right: .1rem
+            p
+              span
+                color: #FB5401
+                font-size: .12rem
+              em
+                font-size: .12rem
+                color: #ccc
+                margin-left: .15rem
+                font-style: normal
+                text-decoration: line-through
+  .activity
+    background-color: #fff
+    margin-bottom: .1rem
+    h2
+      font-size: .16rem
+      line-height: .4rem
+      padding-left: .1rem
+      padding-right: .1rem
+      border-bottom: 1px solid #F2F2F2
+      display: -webkit-flex
+      justify-content: space-between
+      em
+        font-size: .14rem
+        font-style: normal
+        color: #9D9D9D
+        i.fa
+          font-size: .2rem
+          vertical-align: sub
+    .testBody
+      display: -webkit-flex
+      dl
+        -webkit-flex: 1
+        border: 1px solid #F2F2F2
+        dt
+          width: 100%
+          text-align: center
+          img
+            width: 1rem
+            height: .8rem
+        dd
+          padding-left: .1rem
+          padding-right: .1rem
+          padding-top: .05rem
+          p
+            color: #FC7F41
+  .guess
+    width: 100%
+    background-color: #fff
+    margin-bottom: .1rem
+    h2
+      font-size: .16rem
+      line-height: .4rem
+      padding-left: .1rem
+      padding-right: .1rem
+      border-bottom: 1px solid #F2F2F2
+      display: -webkit-flex
+      justify-content: space-between
+      em
+        font-size: .14rem
+        font-style: normal
+        color: #9D9D9D
+        i.fa
+          font-size: .2rem
+          vertical-align: sub
+
+    .my-car
+      display: -webkit-flex
+      -webkit-flex-wrap: wrap
+      dl
+        width: 50%
+        padding: .1rem
+        dt
+          width: 100%
+          height: 1rem
+          text-align: center
+          img
+            width: 1.2rem
+            height: 100%
+        dd
+          h6
+            color: #9D9D9D
+            font-size: .12rem
+          p
+            color: #FB5401
+            span
+              color: #9D9D9D
+              font-size: .1rem
+              text-decoration: line-through
+              margin-left: .15rem
+  .more
+    height: .3rem
+    background-color: #fff
+    h2
+      height: .3rem
+      line-height: .3rem
+      text-align: center
+      font-size: .16rem
+
+
+.footer
+  display: -webkit-flex
+  height: .45rem
+  background-color: #FBFBFB
+  border-top: 1px solid #F2F2F2
+  li
+    -webkit-flex: 1
+    text-align: center
+    display: -webkit-flex
+    -webkit-flex-direction: column
+    padding-top: .05rem
+    i.fa
+      font-size: .18rem
+    span
+      font-size: .12rem
+      padding-top: .03rem
+
+
+
+
+
+.change
+  color: #474747!important
+  span
+    background-color: #474747!important
+.on
+  color: #4183FF!important
